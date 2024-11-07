@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 20px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; 
+}
+
+.button {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: #fff;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffffcc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+table { 
+    margin-top: 20px; 
+    border-collapse: collapse; 
+    width: 100%; 
+} 
+
+th, td { 
+    padding: 12px 15px; 
+    text-align: center; 
+    border: 1px solid #ddd;
+}
+
+th { 
+    background-color: #f2f2f2;  
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('blood.jpg');
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+    opacity: 0.5;
+}
